@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "796163992051",
+    "project_id": "idcard-4dd98",
+    "storage_bucket": "idcard-4dd98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796163992051:android:61705eb6453f4353060a86",
+        "android_client_info": {
+          "package_name": "com.example.sutexapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796163992051-ionlkf07f9j9klrafmah6ea81hiibp5u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sutexapp",
+            "certificate_hash": "e26cee3d84ded5c6130fab444507a29b3a3cddcb"
+          }
+        },
+        {
+          "client_id": "796163992051-nm2flajmigg415uvdam83h27hfsnsqf6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXTHCR0ByGBnakDiPASZVgzy6AWy2Pysg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796163992051-nm2flajmigg415uvdam83h27hfsnsqf6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

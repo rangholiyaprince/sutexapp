@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';import 'package:sutexapp/app/data/theme/colors.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:sutexapp/app/data/theme/colors.dart';
 
 // import 'package:mybarel/core/theme/colors.dart';
 
@@ -14,7 +15,7 @@ class PrimaryButton extends StatelessWidget {
     Key? key,
     required this.onPressed,
     required this.child,
-    this.color = AppColors.primaryButtonColor,
+    this.color = AppColors.primary,
     this.enabled = true,
     this.hasPadding = true,
     this.height,
@@ -28,7 +29,6 @@ class PrimaryButton extends StatelessWidget {
       padding: hasPadding! ? EdgeInsets.symmetric(horizontal: 16.sp) : null,
       child: ElevatedButton(
         onPressed: (enabled == true) ? onPressed : () {},
-        child: child,
         style: ElevatedButton.styleFrom(
             shape: const StadiumBorder(),
             backgroundColor: (enabled == true) ? color : color?.withOpacity(0.6),
@@ -36,6 +36,7 @@ class PrimaryButton extends StatelessWidget {
             padding: EdgeInsets.symmetric(
               vertical: 16.sp,
             )),
+        child: child,
       ),
     );
   }
